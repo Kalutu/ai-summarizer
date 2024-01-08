@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Summize - AI Article Summarizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Summize is an open-source article summarizer powered by OpenAI GPT-4. It allows users to simplify lengthy articles into clear and concise summaries.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Summarize articles using the OpenAI GPT-4 model.
+- Save and view previously summarized articles.
+- User-friendly interface with a simple submission form.
+- Copy summarized article URLs to the clipboard.
+- GitHub integration for easy access to the source code.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Before running the application, make sure you have the following installed:
 
-### `npm test`
+- Node.js and npm
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/Kalutu/ai-summarizer.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
 
-### `npm run eject`
+   cd ai-summarizer
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Start the development server:**
 
-## Learn More
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   This command will launch the development server.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Open your browser:
 
-### Code Splitting
+   Open your web browser and visit http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Submit an article URL:
 
-### Analyzing the Bundle Size
+   Enter an article URL in the submission form.
+   Click the "Submit" button to trigger the summarization process.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. View summarized articles:
 
-### Making a Progressive Web App
+   The application maintains a list of previously summarized articles.
+   Click on a link in the list to view the summary of a specific article.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+5. Copy summarized article URL:
 
-### Advanced Configuration
+   Click the "Copy" button next to a summarized article to copy its URL to the clipboard.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We welcome contributions! If you find a bug or have a feature request, please open an issue or submit a pull request.

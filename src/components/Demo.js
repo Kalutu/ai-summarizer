@@ -100,7 +100,7 @@ const Demo = () => {
       <div className="my-10 max-w-full flex justify-center items-center">
         {isFetching ? (
           <img
-            src="./grid.svg"
+            src="./loader.svg"
             alt="loader"
             className="w-20 h-20 object-contain"
           />

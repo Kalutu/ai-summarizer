@@ -53,7 +53,7 @@ const Demo = () => {
           onSubmit={handleSubmit}
         >
           <img
-            src=""
+            src="./link.svg"
             alt="link icon"
             className="absolute left-0 my-2 ml-3 w-5"
           />
@@ -71,7 +71,7 @@ const Demo = () => {
             type="submit"
             className="submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700"
           >
-            Submit
+            ↵
           </button>
         </form>
 
@@ -84,7 +84,7 @@ const Demo = () => {
             >
               <div className="copy_btn" onClick={() => handleCopy(item.url)}>
                 <img
-                  src=""
+                  src={copied === item.url ? "./tick.svg" : "./copy.svg"}
                   alt="copy_icon"
                   className="w-[40%] h-[40%] object-contain"
                 />
@@ -99,7 +99,11 @@ const Demo = () => {
 
       <div className="my-10 max-w-full flex justify-center items-center">
         {isFetching ? (
-          <img src="" alt="loader" className="w-20 h-20 object-contain" />
+          <img
+            src="./grid.svg"
+            alt="loader"
+            className="w-20 h-20 object-contain"
+          />
         ) : error ? (
           <p className="font-inter font-bold text-black text-center">
             Well, that wasnt supposed to happen...
